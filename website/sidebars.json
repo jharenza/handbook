@@ -1,6 +1,19 @@
 {
-  "docs": {
-    "The Center": ["center"],
-    "Values": ["center"]
-  }
+  "Units": {
+    "ADAPT": [
+      "units/adapt/about",
+      {
+        "type": "subcategory",
+        "label": "Units",
+        "ids": [
+          "units/adapt/teams/applications",
+          "units/adapt/teams/dataeng",
+          "units/adapt/teams/dataops",
+          "units/adapt/teams/devops"
+        ]
+      }
+    ],
+    "BIX": ["units/bix/about"]
+  },
+  "development": {"Git": ["development/git"]}
 }

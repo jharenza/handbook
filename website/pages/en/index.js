@@ -88,8 +88,8 @@ class Index extends React.Component {
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
+        <h2>Technical Handbook</h2>
+        <MarkdownBlock />
       </div>
     );
 
@@ -101,7 +101,7 @@ class Index extends React.Component {
               'To make your landing page more attractive, use illustrations! Check out ' +
               '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
               'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
+            image: `${baseUrl}img/undraw_version_control.svg`,
             imageAlign: 'left',
             title: 'Wonderful SVG Illustrations',
           },
@@ -113,9 +113,8 @@ class Index extends React.Component {
       <Block background="dark">
         {[
           {
-            content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
+            content: 'D3b Technical Teams',
+            image: `${baseUrl}img/undraw_team.svg`,
             imageAlign: 'right',
             title: 'Description',
           },
@@ -128,10 +127,10 @@ class Index extends React.Component {
         {[
           {
             content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+              '<div className="pluginWrapper buttonWrapper"><a href="#" className="button">HI</a></div>',
+            image: `${baseUrl}img/undraw_team.svg`,
             imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
+            title: 'D3b Technical Teams',
           },
         ]}
       </Block>
@@ -142,7 +141,7 @@ class Index extends React.Component {
         {[
           {
             content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
+            image: `${baseUrl}img/undraw_version_control.svg`,
             imageAlign: 'top',
             title: 'Feature One',
           },
@@ -189,7 +188,6 @@ class Index extends React.Component {
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          <Features />
           <FeatureCallout />
           <LearnHow />
           <TryOut />

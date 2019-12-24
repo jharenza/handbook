@@ -29,7 +29,8 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'adapt/about', label: 'ADAPT'}
+    {doc: 'units/adapt/about', label: 'Units'},
+    {doc: 'development/git', label: 'Development'}
   ],
 
   // If you have users set above, you add it here:

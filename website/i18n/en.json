@@ -3,10 +3,13 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A website for testing",
+    "tagline": "D3b Handbook",
     "docs": {
       "center": {
         "title": "the center"
+      },
+      "development/git": {
+        "title": "Git"
       },
       "doc1": {
         "title": "Latin-ish",
@@ -23,17 +26,46 @@
       },
       "doc5": {
         "title": "Fifth Document"
+      },
+      "units/adapt/about": {
+        "title": "Advanced Data Applications and Platforms Team",
+        "sidebar_label": "About"
+      },
+      "units/adapt/srs": {
+        "title": "Specimen Request System"
+      },
+      "units/adapt/teams/applications": {
+        "title": "Applications",
+        "sidebar_label": "Applications"
+      },
+      "units/adapt/teams/dataeng": {
+        "title": "Data Eng",
+        "sidebar_label": "Data Engineering"
+      },
+      "units/adapt/teams/dataops": {
+        "title": "Data Ops",
+        "sidebar_label": "Data Operations"
+      },
+      "units/adapt/teams/devops": {
+        "title": "Dev Ops",
+        "sidebar_label": "Developer Operations"
+      },
+      "units/bix/about": {
+        "title": "Bioinformatics Unit",
+        "sidebar_label": "About"
+      },
+      "values": {
+        "title": "values"
       }
     },
     "links": {
-      "Docs": "Docs",
-      "API": "API",
-      "Help": "Help",
-      "Blog": "Blog"
+      "Teams": "Teams",
+      "Development": "Development"
     },
     "categories": {
-      "The Center": "The Center",
-      "Values": "Values"
+      "ADAPT": "ADAPT",
+      "BIX": "BIX",
+      "Git": "Git"
     }
   },
   "pages-strings": {
