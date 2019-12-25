@@ -102,17 +102,27 @@ class Index extends React.Component {
       </div>
     );
 
-    const TryOut = () => (
-      <Block id="try">
+    const DevelopmentPractices = () => (
+      <Block id="practices">
         {[
           {
-            content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
+            content: `Best practices adhered to by technical teams in The Center:
+            <ul>
+              <li>
+                <a href="/docs/development/feature-lifecycle" className="button">
+                  Features
+                </a>
+              </li>
+              <li>
+                <a href="/docs/development/pr-guide" className="button">
+                Pull Requests
+                </a>
+              </li>
+            </ul>`,
+
             image: `${baseUrl}img/undraw_version_control.svg`,
             imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
+            title: 'Development Practices',
           },
         ]}
       </Block>
@@ -135,9 +145,15 @@ class Index extends React.Component {
       <Block background="light">
         {[
           {
-            content:
-              `<p>The Center is divided into several units, some of which have technical aspects<p>
-            <div className="pluginWrapper buttonWrapper"><a href="#" className="button">HI</a></div>
+            content: `<p>The Center is divided into several units, some of which have technical aspects. Read more about each unit and its responsibilities and organization:<p>
+              <ul>
+                <li>
+                  <a href="/docs/units/adapt/about" className="button">ADAPT Unit</a>
+                </li>
+                <li>
+                  <a href="/docs/units/bix/about" className="button">BIX Unit</a>
+                </li>
+            </ul>
             `,
             image: `${baseUrl}img/undraw_team.svg`,
             imageAlign: 'right',
@@ -201,9 +217,7 @@ class Index extends React.Component {
         <div className="mainContainer">
           <FeatureCallout />
           <TechnicalTeams />
-          <TryOut />
-          <Description />
-          <Showcase />
+          <DevelopmentPractices />
         </div>
       </div>
     );
