@@ -3,12 +3,12 @@ id: branches-guide
 title: Branching Guide
 ---
 
-The branching strategy in Kids First repositories is kept simple to reduce the
+The branching strategy in D3b repositories is kept simple to reduce the
 amount of contextual awareness needed to keep branches in sync, understand the
 state of different branches, and reduce the number of often over-aged pull
 requests that need to be merged.
 
-Kids First uses [GitHub flow](https://guides.github.com/introduction/flow/)
+D3b uses [GitHub flow](https://guides.github.com/introduction/flow/)
 for its repositories which release tags being made directly on `master`.
 Branches ready for merge in a Pull Request are required to rebase on the latest
 master to ensure compatibility. Rebases are **required** over merges from

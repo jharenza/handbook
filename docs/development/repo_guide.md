@@ -4,7 +4,7 @@ title: Repository Setup Guide
 ---
 
 Keeping code repositories consistent is important to allow developers and
-interested users to navigate and contribute to the Kids First codebase. Here,
+interested users to navigate and contribute to the D3b codebase. Here,
 we lay out the fundamental components that each repository under the
 [D3b Organization](https://github.com/d3b/) should include.
 
@@ -88,7 +88,7 @@ codebase.
 
 ### Branding
 
-Public repositories should maintain a consistent Kids First logo with the title
+Public repositories should maintain a consistent D3b logo with the title
 of the repository's application in the head of the README file.
 
 ### Badges

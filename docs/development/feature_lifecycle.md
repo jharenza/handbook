@@ -6,19 +6,19 @@ title: The Feature Lifecycle
 Contributing code is an obvious necessity in progressing any software project.
 However, there is an endless amount of ways to do so. By standardizing the
 process and documenting it thoroughly, we hope to make contributing code to any
-Kids First repository a consistent and straightforward experience. Following is
-the sequentially organized steps to contribute code to any Kids First codebase.
+D3b repository a consistent and straightforward experience. Following is
+the sequentially organized steps to contribute code to any D3b codebase.
 
 ## Development
 
-Any Kids First codebase should provide some information to get started within
+Any D3b codebase should provide some information to get started within
 the README of the GitHub repository. Assuming that the repository follows the
 standard practices as outlined in
 [The Anatomy of a Repository](repo-guide), the
 README should clearly define any requirements and where to get them, how to run
 the application in a local development environment, and how to run tests to
 ensure functionality. If the application is complex and requires other services
-like databases or other Kids First applications, a `docker-compose.yml` file
+like databases or other D3b applications, a `docker-compose.yml` file
 should be available that will configure these services locally for development
 and testing.
 

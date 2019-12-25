@@ -1,6 +1,4 @@
 ---
 id: git
-title: Git
+title: Git and GitHub
 ---
-
-# Git operations
