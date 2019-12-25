@@ -3,13 +3,25 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "D3b Handbook",
+    "tagline": "Breakthroughs for every child, every time, everywhere",
     "docs": {
       "center": {
         "title": "the center"
       },
+      "development/branches-guide": {
+        "title": "Branching Guide"
+      },
+      "development/commit-guide": {
+        "title": "Commit Guide"
+      },
+      "development/feature-lifecycle": {
+        "title": "The Feature Lifecycle"
+      },
       "development/git": {
-        "title": "Git"
+        "title": "development/git"
+      },
+      "development/pr-guide": {
+        "title": "Pull Request Guide"
       },
       "doc1": {
         "title": "Latin-ish",
@@ -30,6 +42,10 @@
       "units/adapt/about": {
         "title": "Advanced Data Applications and Platforms Team",
         "sidebar_label": "About"
+      },
+      "units/adapt/projects": {
+        "title": "Projects",
+        "sidebar_label": "Projects"
       },
       "units/adapt/srs": {
         "title": "Specimen Request System"
@@ -59,13 +75,13 @@
       }
     },
     "links": {
-      "Teams": "Teams",
+      "Units": "Units",
       "Development": "Development"
     },
     "categories": {
       "ADAPT": "ADAPT",
       "BIX": "BIX",
-      "Git": "Git"
+      "Git and GitHub": "Git and GitHub"
     }
   },
   "pages-strings": {

@@ -12,25 +12,30 @@
 const users = [];
 
 const siteConfig = {
-  title: 'D3b Handbook', // Title for your website.
-  tagline: 'D3b Handbook',
-  url: 'https://handbook.d3b.io/', // Your website URL
-  baseUrl: '/', // Base URL for your project */
-  // For github.io type URLs, you would set the url and baseUrl like:
-  //   url: 'https://facebook.github.io',
-  //   baseUrl: '/test-site/',
+  title: 'D3b Technical Handbook',
+  tagline: 'Breakthroughs for every child, every time, everywhere',
+  url: 'https://handbook.d3b.io/',
+  baseUrl: '/',
+  description: `
+  This handbook is intended as a reference manual for teams within The Center
+  for Data-Driven Discovery in Biomedicine and others who wish to understand
+  how we operate or to contribute to one of the many initiatives that 
+  The Center is responsible for.
+  Things you will find in the handbook:
+  - Technical teams, their values, organization, and responsibilies in The Center
+  - Technical projects on-going in The Center
+  - Processes for development and organization
+  - Standards and best practices used by the technical teams
+  `,
 
   // Used for publishing and more
   projectName: 'handbook',
-  organizationName: 'd3b',
-  // For top-level user or org sites, the organization is still the same.
-  // e.g., for the https://JoelMarcey.github.io site, it would be set like...
-  //   organizationName: 'JoelMarcey'
+  organizationName: 'The Center for Data-Driven Discovery in Biomedicine',
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'units/adapt/about', label: 'Units'},
-    {doc: 'development/git', label: 'Development'}
+    {doc: 'development/feature-lifecycle', label: 'Development'},
   ],
 
   // If you have users set above, you add it here:
@@ -46,24 +51,24 @@ const siteConfig = {
     primaryColor: '#000',
     secondaryColor: '#f3f3f3',
     brandColor: '#005788',
+    brandBlue: '#41b6e6',
   },
 
   /* Custom fonts for website */
-  /*
   fonts: {
-    myFont: [
-      "Times New Roman",
-      "Serif"
+    rubrik: [
+      'Rubrik',
+      'Arial',
+      'Rounded MT',
+      'Bold',
+      'Helvetica Rounded',
+      'Arial',
+      'sans-serif',
     ],
-    myOtherFont: [
-      "-apple-system",
-      "system-ui"
-    ]
   },
-  */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Center for Data Driven Discovery in Biomedicine`,
+  copyright: `Copyright © ${new Date().getFullYear()} The Center for Data-Driven Discovery in Biomedicine`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

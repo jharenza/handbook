@@ -36,10 +36,10 @@ class HomeSplash extends React.Component {
     );
 
     const ProjectTitle = () => (
-      <h2 className="projectTitle">
+      <h3 className="projectTitle">
         {siteConfig.title}
         <small>{siteConfig.tagline}</small>
-      </h2>
+      </h3>
     );
 
     const PromoSection = props => (
@@ -60,7 +60,16 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/logo.svg`} />
+        <Logo img_src={`${baseUrl}img/d3b-inline-white.svg`} />
+        <div className="taglineBox">
+          <h2>
+            The Center for Data-Driven Discovery in Biomedicine Technical
+            Handbook
+          </h2>
+          <h4>
+            <em>{siteConfig.tagline}</em>
+          </h4>
+        </div>
       </SplashContainer>
     );
   }
@@ -85,11 +94,11 @@ class Index extends React.Component {
     );
 
     const FeatureCallout = () => (
-      <div
-        className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
-        <h2>Technical Handbook</h2>
-        <MarkdownBlock />
+      <div className="wrapper paddingBottom" style={{textAlign: 'center'}}>
+        <h3>A handbook for technical teams and contributors in The Center</h3>
+        <div className="textContainer">
+          <MarkdownBlock>{siteConfig.description}</MarkdownBlock>
+        </div>
       </div>
     );
 
@@ -113,7 +122,7 @@ class Index extends React.Component {
       <Block background="dark">
         {[
           {
-            content: 'D3b Technical Teams',
+            content: 'Technical Teams',
             image: `${baseUrl}img/undraw_team.svg`,
             imageAlign: 'right',
             title: 'Description',
@@ -122,15 +131,17 @@ class Index extends React.Component {
       </Block>
     );
 
-    const LearnHow = () => (
+    const TechnicalTeams = () => (
       <Block background="light">
         {[
           {
             content:
-              '<div className="pluginWrapper buttonWrapper"><a href="#" className="button">HI</a></div>',
+              `<p>The Center is divided into several units, some of which have technical aspects<p>
+            <div className="pluginWrapper buttonWrapper"><a href="#" className="button">HI</a></div>
+            `,
             image: `${baseUrl}img/undraw_team.svg`,
             imageAlign: 'right',
-            title: 'D3b Technical Teams',
+            title: 'Technical Units',
           },
         ]}
       </Block>
@@ -189,7 +200,7 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <FeatureCallout />
-          <LearnHow />
+          <TechnicalTeams />
           <TryOut />
           <Description />
           <Showcase />
