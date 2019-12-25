@@ -31,8 +31,16 @@ h5 {
   font-weight: 500;
 }
 
+.blockContent ul {
+  list-style: none;
+}
+
 .mainContainer {
   padding-top: 0;
+}
+
+.docMainWrapper {
+  padding-top: 1.5em;
 }
 
 .paddingBottom {
