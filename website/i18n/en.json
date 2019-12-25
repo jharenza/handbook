@@ -23,6 +23,9 @@
       "development/pr-guide": {
         "title": "Pull Request Guide"
       },
+      "development/repo-guide": {
+        "title": "Repository Setup Guide"
+      },
       "doc1": {
         "title": "Latin-ish",
         "sidebar_label": "Example Page"
@@ -81,7 +84,8 @@
     "categories": {
       "ADAPT": "ADAPT",
       "BIX": "BIX",
-      "Git and GitHub": "Git and GitHub"
+      "Processes": "Processes",
+      "Standards and Guides": "Standards and Guides"
     }
   },
   "pages-strings": {

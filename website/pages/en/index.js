@@ -86,7 +86,7 @@ class Index extends React.Component {
         id={props.id}
         background={props.background}>
         <GridBlock
-          align="center"
+          align={props.align || 'center'}
           contents={props.children}
           layout={props.layout}
         />
@@ -94,12 +94,16 @@ class Index extends React.Component {
     );
 
     const FeatureCallout = () => (
-      <div className="wrapper paddingBottom" style={{textAlign: 'center'}}>
-        <h3>A handbook for technical teams and contributors in The Center</h3>
-        <div className="textContainer">
-          <MarkdownBlock>{siteConfig.description}</MarkdownBlock>
-        </div>
-      </div>
+      <Block id="about" align="left">
+        {[
+          {
+            content: siteConfig.description,
+            image: `${baseUrl}img/undraw_personal_notebook.svg`,
+            imageAlign: 'left',
+            title: 'About',
+          },
+        ]}
+      </Block>
     );
 
     const DevelopmentPractices = () => (
