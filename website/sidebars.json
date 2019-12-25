@@ -2,9 +2,10 @@
   "Units": {
     "ADAPT": [
       "units/adapt/about",
+      "units/adapt/projects",
       {
         "type": "subcategory",
-        "label": "Units",
+        "label": "Teams",
         "ids": [
           "units/adapt/teams/applications",
           "units/adapt/teams/dataeng",
