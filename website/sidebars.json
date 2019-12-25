@@ -16,5 +16,7 @@
     ],
     "BIX": ["units/bix/about"]
   },
-  "development": {"Git": ["development/git"]}
+  "development": {
+    "Processes": ["development/feature-lifecycle"],
+  }
 }
