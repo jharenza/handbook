@@ -20,6 +20,7 @@
     "Processes": ["development/feature-lifecycle"],
     "Standards and Guides": [
       "development/branches-guide",
+      "development/commit-guide",
     ]
   }
 }
