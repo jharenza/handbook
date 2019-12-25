@@ -18,5 +18,8 @@
   },
   "development": {
     "Processes": ["development/feature-lifecycle"],
+    "Standards and Guides": [
+      "development/branches-guide",
+    ]
   }
 }
