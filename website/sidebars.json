@@ -21,6 +21,7 @@
     "Standards and Guides": [
       "development/branches-guide",
       "development/commit-guide",
+      "development/pr-guide",
     ]
   }
 }
