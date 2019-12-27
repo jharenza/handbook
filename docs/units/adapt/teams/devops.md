@@ -1,7 +1,7 @@
 ---
 id: devops
 title: Dev Ops
-sidebar_label: Developer Operations
+sidebar_label: Developer Operations Team
 ---
 
 The Developer Operations (DevOps) team is responsible for managing technical
