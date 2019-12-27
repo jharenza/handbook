@@ -2,7 +2,13 @@
   "Units": {
     "ADAPT": [
       "units/adapt/about",
-      "units/adapt/projects",
+      {
+        "type": "subcategory",
+        "label": "Projects",
+        "ids": [
+          "units/adapt/projects/specimen-request-system"
+        ]
+      },
       {
         "type": "subcategory",
         "label": "Teams",

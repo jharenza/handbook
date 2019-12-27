@@ -46,28 +46,28 @@
         "title": "Advanced Data Applications and Platforms Team",
         "sidebar_label": "About"
       },
-      "units/adapt/projects": {
-        "title": "Projects",
-        "sidebar_label": "Projects"
+      "units/adapt/projects/specimen-request-system": {
+        "title": "Specimen Request System",
+        "sidebar_label": "Specimen Request System"
       },
       "units/adapt/srs": {
         "title": "Specimen Request System"
       },
       "units/adapt/teams/applications": {
         "title": "Applications",
-        "sidebar_label": "Applications"
+        "sidebar_label": "Applications Team"
       },
       "units/adapt/teams/dataeng": {
         "title": "Data Eng",
-        "sidebar_label": "Data Engineering"
+        "sidebar_label": "Data Engineering Team"
       },
       "units/adapt/teams/dataops": {
         "title": "Data Ops",
-        "sidebar_label": "Data Operations"
+        "sidebar_label": "Data Operations Team"
       },
       "units/adapt/teams/devops": {
         "title": "Dev Ops",
-        "sidebar_label": "Developer Operations"
+        "sidebar_label": "Developer Operations Team"
       },
       "units/bix/about": {
         "title": "Bioinformatics Unit",
