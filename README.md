@@ -12,3 +12,12 @@ The Center for Data Driven Discovery in Biomedicine at The Children's Hospital
 of Philadelphia.
 
 Read the handbook [here](https://handbook.d3b.io)
+
+## Meta
+
+Install and run the docs with yarn:
+
+```
+yarn
+yarn start
+```
