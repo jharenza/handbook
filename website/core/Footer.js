@@ -46,6 +46,7 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>More</h5>
+            <a href="https://d3b.center">d3b.center</a>
             <a href="https://github.com/d3b-center">GitHub</a>
           </div>
         </section>
