@@ -1,4 +1,7 @@
 {
+  "Projects": {
+    "About": ["projects/about-projects"]
+  },
   "Products": {
     "About": ["products/about-products"],
     "Applications": ["products/specimen-request-system"]
