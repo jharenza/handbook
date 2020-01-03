@@ -42,13 +42,16 @@
       "doc5": {
         "title": "Fifth Document"
       },
+      "products/about-products": {
+        "title": "Technical Products"
+      },
+      "products/specimen-request-system": {
+        "title": "Specimen Request System",
+        "sidebar_label": "Specimen Request System"
+      },
       "units/adapt/about": {
         "title": "Advanced Data Applications and Platforms Team",
         "sidebar_label": "About"
-      },
-      "units/adapt/projects/specimen-request-system": {
-        "title": "Specimen Request System",
-        "sidebar_label": "Specimen Request System"
       },
       "units/adapt/srs": {
         "title": "Specimen Request System"
@@ -78,10 +81,13 @@
       }
     },
     "links": {
+      "Products": "Products",
       "Units": "Units",
       "Development": "Development"
     },
     "categories": {
+      "About": "About",
+      "Applications": "Applications",
       "ADAPT": "ADAPT",
       "BIX": "BIX",
       "Processes": "Processes",

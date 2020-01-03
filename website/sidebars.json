@@ -1,13 +1,15 @@
 {
+  "Products": {
+    "About": ["products/about-products"],
+    "Applications": ["products/specimen-request-system"]
+  },
   "Units": {
     "ADAPT": [
       "units/adapt/about",
       {
         "type": "subcategory",
         "label": "Projects",
-        "ids": [
-          "units/adapt/projects/specimen-request-system"
-        ]
+        "ids": ["units/adapt/projects/specimen-request-system"]
       },
       {
         "type": "subcategory",
