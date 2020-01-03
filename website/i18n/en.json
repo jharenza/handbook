@@ -49,6 +49,9 @@
         "title": "Specimen Request System",
         "sidebar_label": "Specimen Request System"
       },
+      "projects/about-projects": {
+        "title": "Projects"
+      },
       "units/adapt/about": {
         "title": "Advanced Data Applications and Platforms Team",
         "sidebar_label": "About"
@@ -81,6 +84,7 @@
       }
     },
     "links": {
+      "Projects": "Projects",
       "Products": "Products",
       "Units": "Units",
       "Development": "Development"
