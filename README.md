@@ -15,9 +15,18 @@ Read the handbook [here](https://handbook.d3b.io)
 
 ## Meta
 
-Install and run the docs with yarn:
-
+Get running with a local development version of the handbook with the
+following:
 ```
+git clone git@github.com:d3b-center/handbook.git
+cd handbook/website
 yarn
 yarn start
 ```
+
+The site will be available on `localhost:3000` by default.
+
+Pages are written in markdown and organized within the the `docs/` directory.
+The documentation site is generated using [docusaurus](https://docusaurus.io).
+Docusaurus configuration is maintained within the `website/` directory.
+Documentation on how to configure docusaurus can be found in its docs.
