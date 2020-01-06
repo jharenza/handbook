@@ -8,10 +8,10 @@
 # D3b Handbook
 
 The D3b Handbook provides documentation on standards and best practices within
-The Center for Data Driven Discovery in Biomedicine at The Children's Hospital
+The Center for Data Driven Discovery in Biomedicine (D3b) at The Children's Hospital
 of Philadelphia.
 
-Read the handbook [here](https://handbook.d3b.io)
+Read the handbook [here](https://d3b.io)
 
 ## Meta
 

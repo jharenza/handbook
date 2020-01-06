@@ -5,4 +5,4 @@ sidebar_label: Data Operations Team
 ---
 
 The Data Operations (DataOps) team is responsible for managing and reporting on
-data residing in the Center.
+data residing in D3b.

@@ -6,7 +6,7 @@ sidebar_label: About
 
 The Advanced Data Applications and Platform Technologies unit (ADAPT) is
 responsible for D3b's technological infrastructure and data operations
-to meet the [vision and mission of the center](https://d3b.center/aboutd3b/history/).
+to meet the [vision and mission of D3b](https://d3b.center/aboutd3b/history/).
 
 # Unit Mission
 
