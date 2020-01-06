@@ -173,14 +173,14 @@ class Index extends React.Component {
         {[
           {
             title: 'Projects',
-            content: `<p>The Center undertakes many projects to work towards its mission. Technical teams work fully or in part on completing these projects.</p>
-            <a href="docs/projects/about-projects">An Overview of the Center's Projects</a>`,
+            content: `<p>D3b undertakes many projects to work towards its mission. Technical teams work fully or in part on completing these projects.</p>
+            <a href="docs/projects/about-projects">An Overview of Projects</a>`,
           },
           {
             title: 'Products',
-            content: `<p>Technical teams work to create products to assist in achieving requirements of the Center's projects.
+            content: `<p>Technical teams work to create products to assist in achieving requirements of D3b projects.
             Often, these products are combined and said to create <em>platforms</em>.</p>
-            <a href="docs/projects/about-projects">An Overview of the Center's Products</a>`,
+            <a href="docs/projects/about-projects">An Overview of Products</a>`,
           },
         ]}
       </Block>

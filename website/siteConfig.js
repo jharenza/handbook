@@ -18,14 +18,14 @@ const siteConfig = {
   baseUrl: '/',
   description: `
   This handbook is intended as a reference manual for teams within The Center
-  for Data-Driven Discovery in Biomedicine and others who wish to understand
+  for Data-Driven Discovery in Biomedicine (D3b) and others who wish to understand
   how we operate or to contribute to one of the many initiatives that 
-  The Center is responsible for.
+  D3b is responsible for.
   Things you will find in the handbook:
-  - Technical teams, their values, organization, and responsibilies in The Center
-  - Technical projects on-going in The Center
+  - Technical teams, their values, organization, and responsibilies
+  - Technical projects and product descriptions, goals and references
   - Processes for development and organization
-  - Standards and best practices used by the technical teams
+  - Technical Standards and best practices
   `,
 
   // Used for publishing and more
