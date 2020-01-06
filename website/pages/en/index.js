@@ -82,7 +82,7 @@ class Index extends React.Component {
 
     const Block = props => (
       <Container
-        padding={['bottom', 'top']}
+        padding={props.padding || []}
         id={props.id}
         background={props.background}>
         <GridBlock
@@ -94,7 +94,8 @@ class Index extends React.Component {
     );
 
     const FeatureCallout = () => (
-      <Block id="about" align="left">
+      <Block id="about" align="left" padding={['top']}>
+
         {[
           {
             content: siteConfig.description,
@@ -107,7 +108,7 @@ class Index extends React.Component {
     );
 
     const DevelopmentPractices = () => (
-      <Block id="practices">
+      <Block id="practices" padding={['top', 'bottom']}>
         {[
           {
             content: `Best practices adhered to by technical teams in The Center:
@@ -146,7 +147,7 @@ class Index extends React.Component {
     );
 
     const TechnicalTeams = () => (
-      <Block background="light">
+      <Block background="light" padding={['top', 'bottom']}>
         {[
           {
             content: `<p>The Center is divided into several units, some of which have technical aspects. Read more about each unit and its responsibilities and organization:<p>
@@ -168,19 +169,18 @@ class Index extends React.Component {
     );
 
     const Features = () => (
-      <Block layout="fourColumn">
+      <Block layout="twoColumn" padding={['bottom']}>
         {[
           {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_version_control.svg`,
-            imageAlign: 'top',
-            title: 'Feature One',
+            title: 'Projects',
+            content: `<p>The Center undertakes many projects to work towards its mission. Technical teams work fully or in part on completing these projects.</p>
+            <a href="docs/projects/about-projects">An Overview of the Center's Projects</a>`,
           },
           {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
-            imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Products',
+            content: `<p>Technical teams work to create products to assist in achieving requirements of the Center's projects.
+            Often, these products are combined and said to create <em>platforms</em>.</p>
+            <a href="docs/projects/about-projects">An Overview of the Center's Products</a>`,
           },
         ]}
       </Block>
@@ -220,6 +220,7 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <FeatureCallout />
+          <Features />
           <TechnicalTeams />
           <DevelopmentPractices />
         </div>
