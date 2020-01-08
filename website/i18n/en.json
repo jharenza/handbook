@@ -45,6 +45,10 @@
       "products/about-products": {
         "title": "Technical Products"
       },
+      "products/clinical-data-flow": {
+        "title": "Clinical Data Flow",
+        "sidebar_label": "Clinical Data Flow"
+      },
       "products/specimen-request-system": {
         "title": "Specimen Request System",
         "sidebar_label": "Specimen Request System"
@@ -92,6 +96,7 @@
     "categories": {
       "About": "About",
       "Applications": "Applications",
+      "Data Engineering": "Data Engineering",
       "ADAPT": "ADAPT",
       "BIX": "BIX",
       "Processes": "Processes",

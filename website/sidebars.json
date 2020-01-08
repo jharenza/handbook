@@ -4,7 +4,12 @@
   },
   "Products": {
     "About": ["products/about-products"],
-    "Applications": ["products/specimen-request-system"]
+    "Applications": [
+        "products/specimen-request-system"
+    ],
+    "Data Engineering": [
+        "products/clinical-data-flow"
+    ]
   },
   "Units": {
     "ADAPT": [
