@@ -30,7 +30,17 @@
         ]
       }
     ],
-    "BIX": ["units/bix/about"]
+    "BIX": [
+      "units/bix/about",
+      {
+        "type": "subcategory",
+        "label": "Teams",
+        "ids": [
+          "units/bix/teams/bioinfo-engineers",
+          "units/bix/teams/bioinfo-analytics"
+        ]
+      }
+    ]
   },
   "development": {
     "Processes": ["development/feature-lifecycle"],

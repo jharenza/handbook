@@ -83,6 +83,12 @@
         "title": "Bioinformatics Unit",
         "sidebar_label": "About"
       },
+      "units/bix/teams/bioinfo-analytics": {
+        "title": "Bioinformatics Analytics"
+      },
+      "units/bix/teams/bioinfo-engineers": {
+        "title": "Bioinformatics Engineers"
+      },
       "values": {
         "title": "values"
       }
