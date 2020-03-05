@@ -156,7 +156,7 @@ class Index extends React.Component {
                   <a href="/docs/units/adapt/about" className="button">ADAPT Unit</a>
                 </li>
                 <li>
-                  <a href="/docs/units/bix/about" className="button">BIX Unit</a>
+                  <a href="/docs/units/bixu/about" className="button">BIX Unit</a>
                 </li>
             </ul>
             `,

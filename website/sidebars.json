@@ -30,7 +30,7 @@
         ]
       }
     ],
-    "BIX": ["units/bix/about"]
+    "BIXU": ["units/bixu/about"]
   },
   "development": {
     "Processes": ["development/feature-lifecycle"],

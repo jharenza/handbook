@@ -79,7 +79,7 @@
         "title": "Dev Ops",
         "sidebar_label": "Developer Operations Team"
       },
-      "units/bix/about": {
+      "units/bixu/about": {
         "title": "Bioinformatics Unit",
         "sidebar_label": "About"
       },
@@ -98,7 +98,7 @@
       "Applications": "Applications",
       "Data Engineering": "Data Engineering",
       "ADAPT": "ADAPT",
-      "BIX": "BIX",
+      "BIXU": "BIXU",
       "Processes": "Processes",
       "Standards and Guides": "Standards and Guides"
     }
