@@ -30,7 +30,13 @@
         ]
       }
     ],
-    "BIXU": ["units/bixu/about"]
+    "BIXU": [
+      "units/bixu/team",
+      "units/bixu/study",
+      "units/bixu/workspace",
+      "units/bixu/tool",
+      "units/bixu/workflow"
+    ]
   },
   "development": {
     "Processes": ["development/feature-lifecycle"],

@@ -83,6 +83,28 @@
         "title": "Bioinformatics Unit",
         "sidebar_label": "About"
       },
+      "units/bixu/doc/_Footer": {
+        "title": "units/bixu/doc/_Footer"
+      },
+      "units/bixu/doc/bixu-repo-list": {
+        "title": "units/bixu/doc/bixu-repo-list"
+      },
+      "units/bixu/study": {
+        "title": "Bioinformatics Unit Studies",
+        "sidebar_label": "Studies"
+      },
+      "units/bixu/team": {
+        "title": "Bioinformatics Unit Teams",
+        "sidebar_label": "Teams (Who we are)"
+      },
+      "units/bixu/tool": {
+        "title": "Bioinformatics Unit Tools",
+        "sidebar_label": "Tools"
+      },
+      "units/bixu/workspace": {
+        "title": "Bioinformatics Unit Workspace",
+        "sidebar_label": "Workspace"
+      },
       "values": {
         "title": "values"
       }
